@@ -1,11 +1,9 @@
 require 'spec_helper'
 
 describe "TravelApps" do
-  describe "GET /travel_apps" do
-    it "works! (now write some real specs)" do
-      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
-      get travel_apps_path
-      response.status.should be(200)
+  describe "GET /users" do
+    it "shows create user form" do
+    	visit users_path
     end
   end
 end

@@ -1,9 +1,10 @@
 require 'spec_helper'
 
-describe "TravelApps" do
-  describe "GET /users" do
-    it "shows create user form" do
-    	visit users_path
+describe "visit home page" do
+  describe "GET /" do
+    it "renders our homepage" do
+    	visit root_path
+    	expect(page).to have_content('yay')
     end
   end
 end

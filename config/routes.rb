@@ -1,7 +1,7 @@
 TravelApp::Application.routes.draw do
-  # resources :controller name
-  resources :users
-  root :to => 'users#index'
+        # resources :controller name
+  root 'travel#index'
+  # resource :travel
 
 
 

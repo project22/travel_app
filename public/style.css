@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+   
+    overflow: hidden;
+}
+ 
+#info {
+    position: absolute;
+    z-index: 10;
+    left: 25px;
+    top: 25px;
+}
+ 
+#defs {
+    height: 0;
+    width:0;
+}
+ 
+.frame {
+    fill: #fff;
+    pointer-events: all;
+}
+.star {
+    z-index: 20;
+    fill: #FF0000;
+    stroke: rgba(255, 255, 255, .5);
+    stroke-width: .25px;
+}
+.feature {
+    fill: #A1A1A1;
+    stroke: #fff;
+    stroke-width: .5px;
+}
+ 
+.globe {
+    stroke-width: .25px;
+}
+ 
+
+    
